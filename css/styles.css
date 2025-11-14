@@ -76,6 +76,23 @@ ul {
   padding-top: 100px;
   list-style: none;
 }
+#character-list {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+#character-list img {
+  width: 200px;
+}
+
+#character-list li{
+  border: 5px black;
+}
+
+
 
 
 
