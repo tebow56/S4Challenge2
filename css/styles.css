@@ -81,15 +81,42 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: center;
+  justify-content: center ;
 }
 
 #character-list img {
-  width: 200px;
+  width: 250px;
+    
 }
 
-#character-list li{
-  border: 5px black;
+#character-list li ul{
+  border: 1px rgb(132, 128, 128);
+  border-radius: 1px;
+  border-style:solid;
+  padding: 10px;
+  
+  
+  
+}
+#character-list li ul li {
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 1px;
+}
+
+#character-list li ul p:first-child {
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 200px;
+}
+
+
+#character-list li ul p :last-child {
+  font-size: 12px;
+  max-width: 100px;
 }
 
 
