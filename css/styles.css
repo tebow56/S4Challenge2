@@ -119,7 +119,9 @@ ul {
   max-width: 100px;
 }
 
-
+.disabled {
+  visibility:hidden;
+}
 
 
 
